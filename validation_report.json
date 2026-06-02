@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-05-04T15:42:07.696627",
+  "total_tests": 17,
+  "passed": 13,
+  "failed": 4,
+  "tests": [
+    {
+      "name": "Dependency - FastAPI",
+      "passed": true,
+      "message": "FastAPI is correctly installed",
+      "details": {},
+      "timestamp": "2026-05-04T15:41:42.802963"
+    },
+    {
+      "name": "Dependency - Streamlit",
+      "passed": true,
+      "message": "Streamlit is correctly installed",
+      "details": {},
+      "timestamp": "2026-05-04T15:41:43.917961"
+    },
+    {
+      "name": "Dependency - SQLAlchemy",
+      "passed": true,
+      "message": "SQLAlchemy is correctly installed",
+      "details": {},
+      "timestamp": "2026-05-04T15:41:44.125621"
+    },
+    {
+      "name": "Dependency - Pydantic",
+      "passed": true,
+      "message": "Pydantic is correctly installed",
+      "details": {},
+      "timestamp": "2026-05-04T15:41:44.125907"
+    },
+    {
+      "name": "File Structure - API Server",
+      "passed": true,
+      "message": "api_server.py exists and is accessible",
+      "details": {
+        "file": "api_server.py",
+        "size_kb": 11.9013671875
+      },
+      "timestamp": "2026-05-04T15:41:44.126426"
+    },
+    {
+      "name": "File Structure - Dashboard",
+      "passed": true,
+      "message": "dashboard.py exists and is accessible",
+      "details": {
+        "file": "dashboard.py",
+        "size_kb": 18.576171875
+      },
+      "timestamp": "2026-05-04T15:41:44.126930"
+    },
+    {
+      "name": "File Structure - Database",
+      "passed": true,
+      "message": "database.py exists and is accessible",
+      "details": {
+        "file": "database.py",
+        "size_kb": 28.185546875
+      },
+      "timestamp": "2026-05-04T15:41:44.127537"
+    },
+    {
+      "name": "File Structure - Orchestrator",
+      "passed": true,
+      "message": "orchestrator_main.py exists and is accessible",
+      "details": {
+        "file": "orchestrator_main.py",
+        "size_kb": 29.716796875
+      },
+      "timestamp": "2026-05-04T15:41:44.128038"
+    },
+    {
+      "name": "File Structure - Requirements",
+      "passed": true,
+      "message": "requirements.txt exists and is accessible",
+      "details": {
+        "file": "requirements.txt",
+        "size_kb": 0.1337890625
+      },
+      "timestamp": "2026-05-04T15:41:44.128539"
+    },
+    {
+      "name": "Health Check - API Server",
+      "passed": true,
+      "message": "API responding on http://localhost:8000",
+      "details": {
+        "status": "healthy",
+        "version": "1.0.0-phase7.4"
+      },
+      "timestamp": "2026-05-04T15:41:47.200887"
+    },
+    {
+      "name": "Observability - Task List",
+      "passed": true,
+      "message": "Successfully retrieved 13 tasks from system",
+      "details": {
+        "task_count": 13
+      },
+      "timestamp": "2026-05-04T15:41:50.269458"
+    },
+    {
+      "name": "Observability - Metrics Summary",
+      "passed": true,
+      "message": "Retrieved system metrics: 1 metric categories",
+      "details": {
+        "metrics_categories": 1
+      },
+      "timestamp": "2026-05-04T15:41:52.319528"
+    },
+    {
+      "name": "Approval Gate - Control Endpoint",
+      "passed": true,
+      "message": "Approval endpoint responds correctly (status: 200)",
+      "details": {
+        "endpoint": "/control/execute",
+        "status_code": 200
+      },
+      "timestamp": "2026-05-04T15:41:55.395041"
+    },
+    {
+      "name": "Instruction Update - Control Endpoint",
+      "passed": false,
+      "message": "Unexpected status code: 500",
+      "details": {},
+      "timestamp": "2026-05-04T15:41:57.481289"
+    },
+    {
+      "name": "Session Reset - Control Endpoint",
+      "passed": false,
+      "message": "Unexpected status code: 422",
+      "details": {},
+      "timestamp": "2026-05-04T15:41:59.533115"
+    },
+    {
+      "name": "LLM Settings - Persistence Endpoint",
+      "passed": false,
+      "message": "Unexpected status code: 422",
+      "details": {},
+      "timestamp": "2026-05-04T15:42:02.614638"
+    },
+    {
+      "name": "Dashboard - Streamlit Connectivity",
+      "passed": false,
+      "message": "Cannot connect to Dashboard on http://localhost:8501. Is Streamlit running?",
+      "details": {},
+      "timestamp": "2026-05-04T15:42:07.676397"
+    }
+  ]
+}
